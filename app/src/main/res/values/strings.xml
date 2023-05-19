@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">Lircayhub</string>
+    <string name="app_name">SuperShop</string>
+    <string name="hint_nombre">Nombre:</string>
+    <string name="hint_precio">Precio:</string>
+    <string name="hint_categoria">Categoria:</string>
+    <string name="btn_agregar">Agregar</string>
+    <string name="menu_nuevo">Nuevo registro</string>
+    <string-array name="category">
+        <item>Elegir Categoria</item>
+        <item>Vegetales</item>
+        <item>Frutas</item>
+        <item>Bebestibles</item>
+        <item>Otro</item>
+    </string-array>
+
+
 </resources>

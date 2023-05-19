@@ -26,7 +26,7 @@ public class FuncionesApp extends AppCompatActivity {
         recordatorios=(Button)findViewById(R.id.button_recordatorios);
         cerrarSesion=(Button)findViewById(R.id.buttonLogout);
 
-        listaCompras.setOnClickListener(new View.OnClickListener() {
+       listaCompras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent botonListaCompras = new Intent(FuncionesApp.this, ActivityListaCompras.class);
@@ -37,15 +37,32 @@ public class FuncionesApp extends AppCompatActivity {
         lugaresInteres.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent botonlugaresInteres = new Intent(FuncionesApp.this, Activity_lugares_interes.class);
+                Intent botonlugaresInteres = new Intent(FuncionesApp.this, activity_lista_gestion_productos.class);
                 startActivity(botonlugaresInteres);
             }
         });
 
+//        listaProductos.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent botonlistaProductos = new Intent(FuncionesApp.this, Activity_lista_productos.class);
+//                startActivity(botonlistaProductos);
+//            }
+//        });
+
+        /*
         listaProductos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent botonlistaProductos = new Intent(FuncionesApp.this, Activity_lista_productos.class);
+                Intent botonlistaProductos = new Intent(FuncionesApp.this, activity_lista_gestion_productos.class);
+                startActivity(botonlistaProductos);
+            }
+        }); */
+
+        listaProductos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent botonlistaProductos = new Intent(FuncionesApp.this, lista_productosBD.class);
                 startActivity(botonlistaProductos);
             }
         });
