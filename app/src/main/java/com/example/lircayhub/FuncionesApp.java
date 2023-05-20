@@ -70,7 +70,7 @@ public class FuncionesApp extends AppCompatActivity {
         inventarioProductos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent botoninventarioProductos = new Intent(FuncionesApp.this, Activity_inventario_productos.class);
+                Intent botoninventarioProductos = new Intent(FuncionesApp.this, inventory_product.class);
                 startActivity(botoninventarioProductos);
             }
         });
