@@ -7,22 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".lista_productosBD">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/btnAgregar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/darkGray"
+        android:background="@color/white"
         android:minHeight="?actionBarSize"
         android:theme="?actionBarTheme">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="PRODUCTOS"
-            android:textColor="@color/white"
-            android:textSize="35sp"
-            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnAgregarProducto"
@@ -35,14 +26,14 @@
             android:textSize="35sp"
             android:textStyle="bold" />
 
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
     <SearchView
         android:id="@+id/txtBuscar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/listaProductos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

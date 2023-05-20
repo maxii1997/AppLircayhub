@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Lircayhub" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.Lircayhub" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/darkGray</item>
         <item name="colorPrimaryDark">@color/black</item>
