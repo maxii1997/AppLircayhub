@@ -86,7 +86,7 @@ public class FuncionesApp extends AppCompatActivity {
         cerrarSesion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent botoncerrarSesion = new Intent(FuncionesApp.this, MainActivity.class);
+                Intent botoncerrarSesion = new Intent(FuncionesApp.this, SettingsActivity.class);
                 startActivity(botoncerrarSesion);
             }
         });

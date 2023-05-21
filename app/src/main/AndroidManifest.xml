@@ -12,9 +12,14 @@
         android:theme="@style/Theme.Lircayhub"
         tools:targetApi="31">
         <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="PREFERENCIAS"
+            android:parentActivityName=".FuncionesApp"/>
+        <activity
             android:name=".UpdateActivity"
             android:exported="false"
-            android:parentActivityName=".inventory_product"/>
+            android:parentActivityName=".inventory_product" />
         <activity
             android:name=".AddActivity"
             android:exported="false"
@@ -24,17 +29,16 @@
             android:name=".inventory_product"
             android:exported="false"
             android:label="INVENTARIO PROD."
-            android:parentActivityName=".FuncionesApp"/>
+            android:parentActivityName=".FuncionesApp" />
         <activity
             android:name=".lista_productos_db"
-            android:parentActivityName=".lista_productosBD"
-            android:label="AÑADIR PRODUCTO">
-        </activity>
+            android:label="AÑADIR PRODUCTO"
+            android:parentActivityName=".lista_productosBD"></activity>
         <activity
             android:name=".lista_productosBD"
             android:exported="false"
             android:label="LISTA PRODUCTOS"
-            android:parentActivityName=".FuncionesApp"/>
+            android:parentActivityName=".FuncionesApp" />
         <activity
             android:name=".NoteDetailActivity"
             android:exported="false" />
@@ -42,12 +46,12 @@
             android:name=".activity_lista_gestion_productos"
             android:exported="false"
             android:label="LUGARES INTERÉS"
-            android:parentActivityName=".FuncionesApp"/>
+            android:parentActivityName=".FuncionesApp" />
         <activity
             android:name=".Activity_recordatorios"
             android:exported="false"
             android:label="RECORDATORIOS"
-            android:parentActivityName=".FuncionesApp"/>
+            android:parentActivityName=".FuncionesApp" />
         <activity
             android:name=".Activity_inventario_productos"
             android:exported="false" />
@@ -61,7 +65,7 @@
             android:name=".ActivityListaCompras"
             android:exported="false"
             android:label="LISTA COMPRAS"
-            android:parentActivityName=".FuncionesApp"/>
+            android:parentActivityName=".FuncionesApp" />
         <activity
             android:name=".FuncionesApp"
             android:exported="false" />

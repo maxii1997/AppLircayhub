@@ -12,6 +12,18 @@
         <item>Bebestibles</item>
         <item>Otro</item>
     </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
 
+    <!-- Preference Titles -->
+    <string name="sync_header">Diseño App</string>
+    <string name="order_header">Vista de productos</string>
+    <string name="day_header">Tiempo de recordatorio</string>
+
+    <!-- Messages Preferences -->
+    <string name="order_title">Vista de productos</string>
+    <string name="day_title">Tiempo de recordatorio</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Modo Oscuro</string>
 
 </resources>

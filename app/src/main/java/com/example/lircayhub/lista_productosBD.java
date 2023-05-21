@@ -25,7 +25,6 @@ public class lista_productosBD extends AppCompatActivity implements SearchView.O
     RecyclerView listaProductos;
     ArrayList<Productos> listaArrayProductos;
     ListaProductosAdapter adapter;
-
     Button btnAgregarProducto;
 
 
